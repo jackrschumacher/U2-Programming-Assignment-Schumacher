@@ -21,11 +21,12 @@ class Main {
   System.out.println("Ok!, your first name is:"+ firstName);
   System.out.println("Please enter your last name");
   String lastName = input.nextLine();
-  System.out.println("Ok!, your last name is:")
+  System.out.println("Ok!, your last name is:");
 
   if(firstName.length() < 4){
     firstName = firstName.substring(0);
-  else{
+  }
+  else {
     firstName = firstName.substring(0,4);
   }
     
