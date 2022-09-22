@@ -7,6 +7,7 @@ Chapter 2- String Methods
 Programming Assignment 2
 September 2022
 
+This program uses string methods in order to Create MASD emails.
 */
 
 
