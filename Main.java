@@ -38,7 +38,7 @@ class Main {
     lastName = lastName.substring(0,4);
   }
 
-  // 
+  // Print out Email adress, make string variables lower case with variableName.toLowerCase()
   System.out.println("Your MASD email adress is: "+lastName.toLowerCase()+firstName.toLowerCase()+"@stu.masd.k12.wi.us");
   
   
