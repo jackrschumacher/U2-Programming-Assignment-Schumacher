@@ -21,7 +21,7 @@ class Main {
   System.out.println("Ok!, your first name is:"+ firstName);
   System.out.println("Please enter your last name: ");
   String lastName = input.nextLine();
-  System.out.println("Ok!, your last name is:");
+  System.out.println("Ok!, your last name is:"+ lastName);
 
   // If first name length is less than 4, take the length of the existing name, if not use the first 4 letters
   if(firstName.length() < 4){
